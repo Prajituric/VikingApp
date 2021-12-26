@@ -296,6 +296,7 @@ btn--outline:hover {
   border: 0;
   flex-grow: 1;
   padding: 1.5rem 2rem;
+  width: 0;
 }
 
 .input-group .btn {
@@ -758,6 +759,7 @@ btn--outline:hover {
   color: rgb(14, 14, 93);
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 6rem);
   font-size: 2rem;
   font-weight: 600;
   justify-items: center;
